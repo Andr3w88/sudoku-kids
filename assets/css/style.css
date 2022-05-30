@@ -62,7 +62,7 @@ h1 {
 }
 
 .tile-start {
-    background-color: darkgray;
+    background-color: lightgray;
 }
 
 .horizontal-line {
@@ -71,4 +71,12 @@ h1 {
 
 .vertical-line {
     border-right: 4px solid black;
+}
+
+.horizontal-line-1 {
+    border-top: 4px solid black;
+}
+
+.vertical-line-1 {
+    border-left: 4px solid black;
 }

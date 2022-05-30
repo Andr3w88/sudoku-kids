@@ -51,11 +51,17 @@ function setGame() {
                 tile.innerText = board[r][c];
                 tile.classList.add("tile-start")
             }
-            if (r == 2 || r == 5) {
+            if (r == 2 || r == 5 || r == 8) {
                 tile.classList.add("horizontal-line");
             }
-            if (c == 2 || c == 5) {
+            if (c == 2 || c == 5 || c == 8) {
                 tile.classList.add("vertical-line");
+            }
+            if (r == 0) {
+                tile.classList.add("horizontal-line-1");
+            }
+            if (c == 0) {
+                tile.classList.add("vertical-line-1");
             }
             tile.addEventListener("click", selectTile);
             tile.classList.add("tile");
