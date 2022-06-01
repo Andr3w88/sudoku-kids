@@ -20,6 +20,15 @@
 
 <body>
     <h1>Sudoku</h1>
+    <div id="diff">
+        <h3>Difficulty</h3>
+        <label><input type="radio" name="diff" value="easy" id="easy" checked />Easy</label>
+        <label><input type="radio" name="diff" value="relax" id="relax" />Relax</label>
+        <label><input type="radio" name="diff" value="medium" id="medium" />Medium</label>
+        <label><input type="radio" name="diff" value="hard" id="hard" />Hard</label>
+        <label><input type="radio" name="diff" value="challenge" id="challenge" />Challenge</label>
+    </div>
+    <button id="start-btn">Start New Game</button>
     <h2 id="errors">0</h2>
     <!-- 9 x 9 board -->
     <div id="board"></div>
